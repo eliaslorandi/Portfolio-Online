@@ -65,6 +65,7 @@ p:not(:last-of-type),
 }
 
 .btn.btn-primary {
+  margin-top: 5rem;
   background-color: var(--dark-secondary-color);
   color: var(--white);
   font-weight: 400;

@@ -11,18 +11,12 @@ header .header__left {
   flex: 1;
 }
 
-header .header__left p {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  max-width: 50rem;
-}
-
-header .header__right .header__image {
+header .header__right .header__image { /* posição imagem */
   position: relative;
   line-height: 0;
 }
 
-header .header__right .header__image::after {
+header .header__right .header__image::after { /* contorno fundo imagem */
   content: '';
   display: block;
   width: 100%;
@@ -35,17 +29,11 @@ header .header__right .header__image::after {
   z-index: -1;
 }
 
-header .header__right .header__image .lucas {
+header .header__right .header__image .elias { /* imagem */
   border-radius: 0.5rem;
-  min-width: 25rem;
-  max-width: 100%;
-}
+  max-width: 300px;
+  max-height: auto;
 
-header .header__right .header__image .background {
-  position: absolute;
-  top: -4rem;
-  right: -2.5rem;
-  z-index: -1;
 }
 
 @media only screen and (max-width: 768px) {
