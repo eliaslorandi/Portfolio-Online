@@ -27,20 +27,20 @@ a {
 h1 {
   font-size: 6.4rem;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--black);
 }
 
 .secondary-title {
   font-size: 4rem;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--black);
 }
 
 .tertiary-title {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 4.5rem;
-  color: var(--secondary-color);
+  color: var(--black);
 }
 
 p,
@@ -62,14 +62,20 @@ p:not(:last-of-type),
   padding: 1rem 4rem;
   display: inline-block;
   border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
 }
 
 .btn.btn-primary {
   margin-top: 5rem;
-  background-color: var(--dark-secondary-color);
-  color: var(--white);
+  background-color: var(--primary-color);
+  color: var(--black);
   font-weight: 400;
   font-size: 1.4rem;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--primary-color-two);
+  color: var(--white);
 }
 
 .max-width {
